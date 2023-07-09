@@ -1,0 +1,125 @@
+.page {
+    min-width: 320px;
+    max-width: 1400px;
+    background-color: #c6c6c6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    margin: 50px 15vw;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+    width: 70%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 50px;
+}
+
+.logo {
+    height: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+
+.content {
+    width: 70%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 50px;
+}
+
+.author {
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:flex-start;
+    margin: 0 0 50px;
+}
+
+.author-photo {
+    border-radius: 2%;
+    outline: 2px solid black;
+    width: 15%;
+    height: 15%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+
+.author-title {
+    margin: 5%;
+}
+
+.author-text {
+    margin: 5%;
+}
+
+.main-text {
+    margin: 2%;
+}
+
+.title {
+    width: 100%;
+    margin: 1%;
+}
+
+.text {
+    margin: 0.5%;
+}
+
+.contacts {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.link {
+    margin: 0.5%;
+    text-align: center;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    filter: grayscale(1) brightness(0);
+}
+
+.footer {
+    width: 70%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 0 50px;
+    font-weight: 600;
+    text-align: right;
+}
